@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+#mainBox{
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    }
+
+#mainBox h1{
+    font-size: 25px;
+    color: rgb(255, 187, 0);
+    }
+
+#mainBox sub{
+    font-size: 10px;
+    color: red;
+    }
+    
+#loginBox{
+    box-shadow: rgba(0, 0, 0, 0.308) 0 0 15px 1px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px 30px 15px;
+    }
+
+#loginBox h2{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    }
+
+#loginBox div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    width: fit-content;
+    }
+
+#loginBox input{
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    width: 200px;
+    padding: 7px;
+    border-radius: 5px;
+    }
+
+button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    }
+
+button:active{
+    scale: calc(0.99);
+    transition: 10ms;
+    }
+
+#loginBox a{
+    text-align: right;
+    font-size: 0.9em;
+    }
